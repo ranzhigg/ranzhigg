@@ -1,0 +1,19 @@
+#!name=雪球app广告
+#!desc=自行测试
+[Rule]
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json\?,REJECT
+
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?,REJECT
+
+URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
+
+
+//remen
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowflake-theme\/query\/v1\/hot_event\/rich_tag_new\.json\?,REJECT
+
+//remenzhibo
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
+
+[Mitm]
+hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
+
