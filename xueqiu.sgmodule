@@ -14,6 +14,9 @@ URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowflake-theme\/query\/v1\/hot_event\/ri
 //remenzhibo
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
 
+//tiezituijian
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\.json\?,REJECT
+
 [Mitm]
 hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
 
