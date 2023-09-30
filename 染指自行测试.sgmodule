@@ -6,7 +6,6 @@
 //上游去广告
 DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
-DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising_Domain.list,REJECT
 DOMAIN-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt,REJECT
 RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
 DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
