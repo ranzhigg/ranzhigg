@@ -3,6 +3,18 @@
 
 
 [Rule]
+//上游去广告
+DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising_Domain.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt,REJECT
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_phishing.conf,REJECT
+RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
+DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
+
+//雪球
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json\?,REJECT
 
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?,REJECT
@@ -21,4 +33,3 @@ URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\
 
 [Mitm]
 hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
-
