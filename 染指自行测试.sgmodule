@@ -22,15 +22,7 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
 //雪球
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json\?,REJECT
 
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?,REJECT
-
-URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
-
-
-//remen
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowflake-theme\/query\/v1\/hot_event\/rich_tag_new\.json\?,REJECT
 
 //remenzhibo
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
