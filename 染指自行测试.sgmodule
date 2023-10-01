@@ -28,7 +28,6 @@ DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,RE
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
 
 //热门文章
-
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json？,REJECT
 
 //帖子投资推荐
