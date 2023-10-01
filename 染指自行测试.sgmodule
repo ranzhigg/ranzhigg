@@ -3,7 +3,8 @@
 
 
 [Rule]
-//上游去广告
+//上游去广告喽
+
 DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
 
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
