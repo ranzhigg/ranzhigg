@@ -1,37 +1,38 @@
-#!name=app广告
-#!desc=自行测试一下呀
+    #!name=app广告
+    #!desc=自行测试一下呀
 
 
-[Rule]
-//上游去广告喽
+    [Rule]
+    //上游去广告喽
 
-DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
+    DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
 
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
+    RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list,REJECT
 
-DOMAIN-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt,REJECT
+    DOMAIN-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt,REJECT
 
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
+    RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
 
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
+    DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
 
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_phishing.conf,REJECT
+    DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_phishing.conf,REJECT
 
-RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
+    RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 
-DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
+    DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
-//雪球
+    //雪球
+    //小雪推荐
+    URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
 
+    //热门直播
+    URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
 
-//热门直播
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
+    //热门文章
+    URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json？,REJECT
 
-//热门文章
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json？,REJECT
+    //帖子投资推荐
+    URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\.json\?,REJECT
 
-//帖子投资推荐
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\.json\?,REJECT
-
-[Mitm]
-hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
+    [Mitm]
+    hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
