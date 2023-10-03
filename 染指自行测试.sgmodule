@@ -22,6 +22,10 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
 //雪球
+
+DOMAIN,https://182.92.251.113/brand/search/v1.json,REJECT
+DOMAIN,https://api.xueqiu.com/brand/search/v1.json,REJECT
+
 //小雪推荐
 URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
 
