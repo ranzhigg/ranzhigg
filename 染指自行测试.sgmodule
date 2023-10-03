@@ -28,11 +28,18 @@ URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
 //热门直播
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
 
+//阅读推荐
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json\?,REJECT
+
 //热门文章
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/hot_event\/tag\.json？,REJECT
 
 //帖子投资推荐
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\.json\?,REJECT
+
+[Map Local]
+^https:\/\/api\.xueqiu\.com\/promotion\/display_ad_batch\.json\？ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
 
 [Mitm]
 hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
