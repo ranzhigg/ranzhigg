@@ -21,23 +21,9 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 
 DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
-//雪球
-
-DOMAIN,https://182.92.251.113/brand/search/v1.json,REJECT
-DOMAIN,https://api.xueqiu.com/brand/search/v1.json,REJECT
 
 //小雪推荐
 
-//雪球去广告
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/build_union\/dialog\/show\.json\?,REJECT
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?,REJECT
-URL-REGEX,^https:\/\/fund\.xueqiu\.com\/fundx\/,REJECT
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batch_get_profile_image\.json\?,REJECT
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/zj_card\.json,REJECT
-URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/rn\/releases\/v2\/match_bundles\？,REJECT
-DOMAIN,https://182.92.251.113/brand/search/v1.json,REJECT
-DOMAIN,https://api.xueqiu.com/brand/search/v1.json,REJECT
-URL-REGEX,^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?,REJECT
 
 //热门直播
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
