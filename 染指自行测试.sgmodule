@@ -22,23 +22,13 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
 //垃圾
-# Reject
-# >> Webrtc
-#AND,((OR,((DEST-PORT,19305), (DEST-PORT,19302), (DEST-PORT,10000), (DEST-PORT,3478), (DEST-PORT,443))), (RULE-SET,http://script.hub/file/_start_/https://raw.githubusercontent.com/QiongBan/Surge/main/STUN_Server.list/_end_/STUN_Server.list?type=rule-set&target=surge-rule-set&nore=true)),REJECT
 
-//
 DOMAIN,al-log.d.meituan.net,REJECT
 DOMAIN,babel-statistics-android.d.meituan.net,REJECT
 DOMAIN,maplocatesdksnapshot.d.meituan.net,REJECT
 DOMAIN,metrics-picture.d.meituan.net,REJECT
 DOMAIN,route-stats.d.meituan.net,REJECT
 DOMAIN,ntp.nasa.gov,REJECT
-
-//小雪推荐
-
-
-//热门直播
-URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJECT
 
 
 //帖子投资推荐
