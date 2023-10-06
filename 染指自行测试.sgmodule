@@ -39,8 +39,7 @@ URL-REGEX,^https:\/\/api\.xueqiu\.com\/query\/v1\/road_show\/fetch\.json\?,REJEC
 //帖子投资推荐
 URL-REGEX,^https:\/\/api\.xueqiu\.com\/analysis\/status\/v2\/underlying_product\.json\?,REJECT
 
-[Map Local]
-^https:\/\/api\.xueqiu\.com\/promotion\/display_ad_batch\.json\？ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
 
 
 [Mitm]
