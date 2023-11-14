@@ -23,8 +23,8 @@ DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,RE
 
 //瑟瑟
 
-HOST-SUFFIX, jads.co, REJECT
-HOST-SUFFIX, juicyads.com, REJECT
+DOMAIN, jads.co, REJECT
+DOMAIN, juicyads.com, REJECT
 
 DOMAIN,al-log.d.meituan.net,REJECT
 DOMAIN,babel-statistics-android.d.meituan.net,REJECT
