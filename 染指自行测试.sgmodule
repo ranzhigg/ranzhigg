@@ -22,6 +22,11 @@ RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,REJECT
 
 //垃圾
+#NSFW 
+添加以下分流  可以干掉播放前的广告和暂停时的广告
+
+HOST-SUFFIX, jads.co, REJECT
+HOST-SUFFIX, juicyads.com, REJECT
 
 DOMAIN,al-log.d.meituan.net,REJECT
 DOMAIN,babel-statistics-android.d.meituan.net,REJECT
