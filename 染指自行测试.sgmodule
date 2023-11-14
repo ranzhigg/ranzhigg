@@ -23,8 +23,8 @@ DOMAIN-SET,https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt,RE
 
 //瑟瑟
 
-DOMAIN, jads.co, REJECT
-DOMAIN, juicyads.com, REJECT
+DOMAIN,jads.co, REJECT
+DOMAIN,juicyads.com, REJECT
 
 DOMAIN,al-log.d.meituan.net,REJECT
 DOMAIN,babel-statistics-android.d.meituan.net,REJECT
