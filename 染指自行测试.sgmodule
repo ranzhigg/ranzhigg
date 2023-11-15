@@ -3,19 +3,6 @@
 
 
 [Rule]
-//上游去广告喽
-
-DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
-
-DOMAIN-SET,https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt,REJECT
-
-RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT
-
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT-TINYGIF
-
-DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_phishing.conf,REJECT
-
-RULE-SET,https://ruleset.skk.moe/List/ip/reject.conf,REJECT-DROP
 
 //瑟瑟
 
@@ -28,6 +15,3 @@ DOMAIN,maplocatesdksnapshot.d.meituan.net,REJECT
 DOMAIN,metrics-picture.d.meituan.net,REJECT
 DOMAIN,route-stats.d.meituan.net,REJECT
 DOMAIN,ntp.nasa.gov,REJECT
-
-[Mitm]
-hostname = %APPEND% api.xueqiu.con,open.xueqiu.com
