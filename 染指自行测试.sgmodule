@@ -5,6 +5,7 @@
 [Rule]
 
 DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
+DOMAIN-SET,https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt,REJECT
 #瑟瑟
 
 DOMAIN,jads.co, REJECT
