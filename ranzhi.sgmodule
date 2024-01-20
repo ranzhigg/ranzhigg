@@ -18,6 +18,4 @@
 ^https:\/\/api.xueqiu.com\/ucprofile\/api\/user\/batchGetUserBasicInfo.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-
-hostname = %APPEND%
-api.xueqiu.com, xqimg.imedao.com
+hostname = %APPEND% api.xueqiu.com, xqimg.imedao.com    
