@@ -1,19 +1,15 @@
-#!name=app广告
-#!desc=自行测试一下呀
+#!name=自用合集
+#!desc=local
 
+[URL Rewrite]
+# 开屏广告 感谢【Runestoner】分享
+^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? - reject
 
-[Rule]
+[Map Local]
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
-DOMAIN-SET,https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list,REJECT
+# 感谢【Joe Joy】分享
+^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-#瑟瑟
-
-DOMAIN,jads.co, REJECT
-DOMAIN,juicyads.com, REJECT
-
-DOMAIN,al-log.d.meituan.net,REJECT
-DOMAIN,babel-statistics-android.d.meituan.net,REJECT
-DOMAIN,maplocatesdksnapshot.d.meituan.net,REJECT
-DOMAIN,metrics-picture.d.meituan.net,REJECT
-DOMAIN,route-stats.d.meituan.net,REJECT
-DOMAIN,ntp.nasa.gov,REJECT
+# 去除首页的广告
+^https:\/\/api.xueqiu.com\/ucprofile\/api\/user\/batchGetUserBasicInfo.json data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
