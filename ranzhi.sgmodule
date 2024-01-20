@@ -6,7 +6,7 @@
 
 [URL Rewrite]
 # 开屏广告 感谢【Runestoner】分享
-^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? - reject
+URL-REGEX,^https:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? ,REJECT
 
 [Map Local]
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
