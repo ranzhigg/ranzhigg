@@ -1,7 +1,8 @@
 #!name=染指自用
 #!desc=自己搓的一些小东西
 #!category=远程测试
-#!arguments=[MITM], interval:3600, api-key
+#!arguments=[MITM]Soul.com interval:3600, api-key:api
+.com
 
 [URL Rewrite]
 
