@@ -6,8 +6,7 @@
 [Map Local]
 # 去除首页的广告
 ^https:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batch_get_profile_image\.json\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-ranzhi.ya data="index.html"
-^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.(jpg|png)$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+ranzhi.ya data="index.html”
 
 [Rule]
 # Soul
