@@ -3,8 +3,7 @@
 #!category=远程测试
 
 [Map Local]
-^http://ranzhi.ya
-data="index.html"
+ranzhi.ya data="index.html"
 
 [Rule]
 # Soul
