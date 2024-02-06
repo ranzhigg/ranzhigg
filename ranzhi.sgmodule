@@ -2,9 +2,9 @@
 #!desc=自己搓的一些小东西
 #!category=远程测试
 
-[Script]
-
-http-response ^http//ranzhi.ya.*$ script-path=ranzhiya.js
+[Map Local]
+^http://ranzhi.ya
+data="index.html"
 
 [Rule]
 # Soul
