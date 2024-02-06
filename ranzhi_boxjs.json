@@ -1,31 +1,21 @@
- "apps": [
-    {
-      "id": "fmz200_aliyun",
-      "name": "阿里云盘cookie",
-      "keys": [
-        "aliyun_data"
-      ],
-      "descs_html": [
-        "填写cookie,多账号用英文逗号(@)分开"
-      ],
-      "settings": [
-        {
-          "id": "aliyun_data",
-          "name": "阿里云盘cookie",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 32,
-          "desc": "阿里云盘cookie"
-        }
-      ],
-      "icons": [
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png",
-        "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png"
-      ],
-      "author": "@fmz200",
-      "repo": "https://github.com/fmz200/wool_scripts"
-      ]
-    }
-  ]
+{
+  "ranzhi_aliyun": {
+    "name": "阿里云盘cookie",
+    "keys": ["aliyun_data"],
+    "desc": "填写cookie,多账号用英文逗号(@)分开",
+    "settings": [
+      {
+        "id": "aliyun_data",
+        "name": "阿里云盘cookie",
+        "val": "",
+        "type": "textarea",
+        "autoGrow": true,
+        "rows": 32,
+        "desc": "阿里云盘cookie"
+      }
+    ],
+    "icon": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png",
+    "author": "@ranzhi",
+    "repo": "https://github.com/fmz200/wool_scripts"
+  }
 }
