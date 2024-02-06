@@ -14,7 +14,7 @@
 
 [Map Local]
 ranzhi.ya data="index.html"
-^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.(jpg|png)$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
 [Rule]
 # Soul
