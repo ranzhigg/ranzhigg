@@ -1,21 +1,22 @@
 {
   "ranzhi_aliyun": {
-    "name": "阿里云盘cookie",
-    "keys": ["aliyun_data"],
+    "name": "蜜雪冰城cookie",
+    "keys": ["mxbc_data"],
     "desc": "填写cookie,多账号用英文逗号(@)分开",
     "settings": [
       {
-        "id": "aliyun_data",
-        "name": "阿里云盘cookie",
+        "id": "mxbc_data",
+        "name": "蜜雪冰城cookie",
         "val": "",
         "type": "textarea",
         "autoGrow": true,
         "rows": 32,
-        "desc": "阿里云盘cookie"
+        "desc": "蜜雪冰城cookie"
       }
     ],
-    "icon": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png",
+    "icon": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/mxbc.png",
     "author": "@ranzhi",
     "repo": "https://github.com/fmz200/wool_scripts"
-  }
-}
+   }
+  ｝
+｝
