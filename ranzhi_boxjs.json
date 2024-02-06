@@ -1,29 +1,30 @@
 {
-  "id": "ranzhi_boxjs",
-  "name": "ranzhiのBoxJS订阅",
-  "author": "@ranzhigg",
-  "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
-  "repo": "https://github.com/ranzhigg",
-  "desc": "订阅大多都支持多账号，协定数据格式如下：有主键的用JSON，没有主键的拼接用#分割用@。\n例如{\"uid1\": \"token1\", \"uid2\": \"token2\",\"uid3\": \"token3\"}和uid1#token1@uid2#token2@uid3#token3",
-{
-  "ranzhi_aliyun": {
-    "name": "蜜雪冰城cookie",
-    "keys": ["mxbc_data"],
-    "desc": "填写cookie,多账号用英文逗号(@)分开",
-    "settings": [
-      {
-        "id": "mxbc_data",
+  "ranzhi_boxjs": {
+    "name": "ranzhiのBoxJS订阅",
+    "author": "@ranzhigg",
+    "icon": "https://avatars.githubusercontent.com/u/57740735?s=60&v=4",
+    "repo": "https://github.com/ranzhigg",
+    "desc": "订阅大多都支持多账号，协定数据格式如下：有主键的用JSON，没有主键的拼接用#分割用@。\n例如{\"uid1\": \"token1\", \"uid2\": \"token2\",\"uid3\": \"token3\"}和uid1#token1@uid2#token2@uid3#token3",
+    "subs": {
+      "ranzhi_aliyun": {
         "name": "蜜雪冰城cookie",
-        "val": "",
-        "type": "textarea",
-        "autoGrow": true,
-        "rows": 32,
-        "desc": "蜜雪冰城cookie"
+        "keys": ["mxbc_data"],
+        "desc": "填写cookie,多账号用英文逗号(@)分开",
+        "settings": [
+          {
+            "id": "mxbc_data",
+            "name": "蜜雪冰城cookie",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 32,
+            "desc": "蜜雪冰城cookie"
+          }
+        ],
+        "icon": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/mxbc.png",
+        "author": "@ranzhi",
+        "repo": "https://github.com/fmz200/wool_scripts"
       }
-    ],
-    "icon": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/mxbc.png",
-    "author": "@ranzhi",
-    "repo": "https://github.com/fmz200/wool_scripts"
-   }
-  ｝
-｝
+    }
+  }
+}
