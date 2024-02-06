@@ -18,4 +18,4 @@ IP-CIDR,120.27.235.201/32,REJECT
 IP-CIDR,121.196.197.147/32,REJECT
 
 [MITM]
-hostname = %APPEND% ranzhi.ya
+hostname = %APPEND% ranzhi.ya,api.xueqiu.com,xqimg.imedao.com
