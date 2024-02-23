@@ -25,4 +25,4 @@ IP-CIDR,121.196.197.147/32,REJECT
 
 [MITM]
 hostname = %APPEND%
-api.xueqiu.com,xqimg.imedao.com       
+api.xueqiu.com,xqimg.imedao.com
