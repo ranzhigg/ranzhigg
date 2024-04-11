@@ -1,1 +1,32 @@
-{"code":200,"data":{"texts":["哪有什么区别 都不过是梦一场"],"origin":"_Evilkiss","songId":190072,"commentId":5738691313,"songName":"黄昏","coverUrl":"http://p1.music.126.net/mFM2Ii6Kxktb_87b4q3TYQ==/109951167366664357.jpg","singerName":"周传雄","commentCalendar":{"festival":null,"dateImg":null,"bigBackground":"https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/22398650290/f0df/0f22/3141/b532bd64abb2f92d5ca89b79f1e88c32.png","background":"https://p6.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/23754722971/ebf0/690f/11d9/5bf692f9ad9331021a7759fa30b2a444.png","fontColor":null,"androidRoundedCornerImg":null,"androidSmallWidgetMainImg":null,"monthImg":"https://p6.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/32274152161/3573/e985/2a8d/b10f82136e2663fe1d31b439b129833a.png","month":2,"day":28,"dayOfWeek":4,"dayImg":"https://p5.music.126.net/obj/wonDlsKUwrLClGjCm8Kx/32274152163/0be0/9a66/d086/3a60a8875aa2ed1bc9ed6916bcafde59.png"}},"message":""}
+const $tool = new Tool();
+$tool.get('https://music.163.com/api/music/multi/terminal/widget/24/comment/calendar', (error, response, data) => {
+    if (!error) {
+        let obj = JSON.parse(data);
+        let title = "网易云热评呀";
+        let info = obj.data.songName + " - " + obj.data.singerName;
+        let texts = obj.data.texts[0];
+        let cover = obj.data.coverUrl;
+        let options = {
+     "action": "clipboard",
+      "text": texts,
+     "media-url": cover,
+     "auto-dismiss": 10
+     };
+        $tool.notify(title, info, texts, options);
+    } else {
+        $tool.notify('出错啦');
+    }
+    $done();
+});
+
+function Tool() {
+    this.notify = (title, info, texts, options) => {
+        $notification.post(title, info, texts, options);
+    };
+
+    this.get = (url, callback) => {
+        $httpClient.get(url, (error, response, data) => {
+            callback(error, response, data);
+        });
+    };
+}
