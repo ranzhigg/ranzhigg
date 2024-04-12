@@ -10,7 +10,7 @@ $tool.get('https://music.163.com/api/music/multi/terminal/widget/24/comment/cale
      "action": "clipboard",
       "text": texts,
      "media-url": cover,
-     "auto-dismiss": 10
+     "auto-dismiss": 0
      };
         $tool.notify(title, info, texts, options);
     } else {
