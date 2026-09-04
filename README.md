@@ -1,9 +1,9 @@
 <div align="center">
   <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Ran Zhi" />
 
-  <br />
-
-  **喜欢钻研技术，也享受把日常生活打磨得更顺手。**
+  <a href="https://github.com/ranzhigg">
+    <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=500&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=580&lines=Explore+%C2%B7+Build+%C2%B7+Refine;Media+Automation+%26+Self-hosting;Stay+curious%2C+keep+tinkering." alt="Typing introduction" />
+  </a>
 
   <br />
 
@@ -13,13 +13,17 @@
   <img src="https://img.shields.io/badge/Open_Source-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Open Source" />
 </div>
 
-## `01` 关于我
+## 👋 关于我
 
-我喜欢研究技术。遇到感兴趣的问题，会从“能用”继续追到“为什么能用”，再想办法让它更稳定、更自然。
+🔍 喜欢钻研技术，把感兴趣的问题弄懂、做好。
 
-闲暇时主要折腾家庭媒体自动化，让下载、整理、入库和播放顺畅衔接。我也是 Apple 生态爱好者，喜欢软硬件配合得恰到好处的体验。
+🎬 闲暇时维护媒体自动化，也享受 Apple 生态流畅、优雅的体验。
 
-## `02` 我在意的事
+💡 愿意为优秀的软件付费，也愿意花时间让好程序变得更好。
+
+<br />
+
+## ✨ 我在意的事
 
 | | |
 |:--:|:--|
@@ -29,11 +33,7 @@
 | 🧩 | **支持好软件** · 愿意为优秀的软件付费，也愿意花时间参与完善 |
 | 🛠️ | **开源协作** · 从真实使用出发维护 Fork，并把通用改进贡献回社区 |
 
-## `03` 最近在做
-
-> 让家庭媒体服务更自动、更稳定，也更容易维护。
-
 <div align="center">
   <br />
-  <sub>保持好奇，认真折腾。</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:172554,100:111827&height=100&section=footer" width="100%" alt="Footer" />
 </div>
