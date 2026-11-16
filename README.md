@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Hi, I'm Ran Zhi" />
+  <img src="./assets/banner.svg" width="100%" alt="Ran Zhi" />
 
   <a href="https://github.com/ranzhigg">
     <img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=600&size=22&duration=2600&pause=900&color=6366F1&center=true&vCenter=true&width=650&lines=%E8%AE%A9%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E6%9B%B4%E5%A5%BD%E7%94%A8;Build+%C2%B7+Refine+%C2%B7+Repeat;Keep+curious%2C+keep+tinkering." alt="Typing introduction" />
@@ -66,6 +66,5 @@ These are the projects I currently care about most. The badges are read from Git
 </div>
 
 <div align="center">
-  <br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:312E81,50:172554,100:111827&height=100&section=footer" width="100%" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:312E81,100:111827&height=90&section=footer" width="100%" alt="Footer" />
 </div>
